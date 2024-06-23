@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My first page with css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <div id="navbar">
+        <img id="logo" src="https://d1psgljc389n8q.cloudfront.net/bootcamps/logos/Z_awBFpU5" alt="Jovian logo">
+    </div>
+    <img id="banner" src="Banner.jpg.jpg" alt="Banner" height="240">
+    <h1>About Jovian</h1>
+    <div id="about">
+        <div id="description">
+           
+    <p style="margin-top: 0%;">
+        The Jovian planets are Jupiter, Saturn, Uranus, and Neptune. They orbit
+        far from the sun. These planets have no <span style="text-decoration: line-through;">solid surfaces</span> and are essentially
+        large balls of gas composed primarily of hydrogen and helium. They are 300000+
+        much larger than the terrestrial planets (Earth, Mercury, Venus, and
+        Mars).
+      </p>
+    <p>
+          we also offer 2 industry-focused bootcamps:
+          <ol>
+              <li>
+                  <a href="https://jovian.com/aakashns/full-stack-developer-bootcamp-roadmap">
+                      Jovian Full Stack Developer Bootcamps
+                  </a>
+              </li>
+              <li>
+                  <a href="https://jovian.com/learn/zero-to-data-analyst-bootcamp">
+                      Jovian Data Developer Bootcamps
+                  </a>
+              </li>
+          </ol>
+    </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg.jpg" alt="Team">
+ 
+        </div>
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+          <tr class="jobs-header-row">
+            <th rowspan="2">Job Tittle</th>
+            <th colspan="2">Location</th>
+            <th rowspan="2">Salary</th>
+            <th rowspan="2">Posted On</th>
+          </tr>
+          <tr class="jobs-header-row">
+            <th>City</th>
+            <th>Country</th>
+          </tr>
+          <tr class="jobs-data-row">
+            <td>Frontend Developer</td>
+            <td>Karachi</td>
+            <td>Pakistan</td>
+            <td>$12,00,00</td>
+            <td>Mar 3, 2024</td>
+          </tr>
+          <tr class="jobs-data-row">
+            <td>Full Stack Developer</td>
+            <td>Lahore</td>
+            <td>Pakistan</td>
+            <td>$15,00,00</td>
+            <td>Feb 1, 2024</td>
+          </tr>
+          <tr class="jobs-data-row">
+            <td>Data Scientist</td>
+            <td>San Fancisco</td>
+            <td>USA</td>
+            <td>$175,000</td>
+            <td>Dec 22, 2023</td>
+          </tr>
+          <tr class="jobs-data-row">
+            <td>ML Engineer</td>
+            <td colspan="2">Remote</td>
+            <td>$80,000</td>
+            <td>Dec 19, 2023</td>
+          </tr>
+        </table>
+    </div>
+
+    <div id="application">
+      <h2>Submit Your Application</h2>
+
+      <form id="application-form" action="https://formbold.com/s/9xBqk" method="post"  enctype="multipart/form-data">
+        <div>
+          <label for="name">Full Name</label><br>
+          <input type="text" id="name" name="Full Name" required placeholder="Jhon Doe">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label><br>
+          <input type="email" name="email" id="email address" required placeholder="jdoe@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label><br>
+          <input type="tel" id="phone" name="phone" required placeholder="+92121212121">
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of Birth</label><br>
+          <input type="date" name="dob" id="dob" required>
+
+        </div>
+
+        <div class="form-group">
+          <label for="position">Position Applied For</label><br>
+          <select name="Position Applied" id="position" required>
+            <option value="">Select Position</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value=">Data Scientist">Data Scientist</option>
+            <option value="ML Engineer">ML Engineer</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="resume">Upload Resume</label><br>
+          <input type="file" id="resume" name="resume" accept="pdf, .doc, .docx" required>
+
+        </div>
+
+        <div class="form-group">
+            <label for="coverletter">Cover Letter</label><br>
+            <textarea name="coverletter" id="coverletter" rows="5" required placeholder="Explain what makes you suitable for the job."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the terms and conditions
+          </label>
+
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Submit Application">
+        </div>
+
+
+      </form>
+
+    </div>
+    <div id="footer">
+        <ul id="footer-links">
+            <li><a href="https://jovian.com/learn" target="_blank">Courses</a></li>
+            <li><a href="https://jovian.com/learn" target="_blank">Programs</a></li>
+            <li><a href="https://youtube.com/@jovianhq" target="_blank">Youtube</a></li>
+        </ul>
+
+        <span class="copyright">&lt;&lt;&lt; &copy; 2024 Jovian &gt;&gt;&gt;</span>
+    </div> 
+
+  </body>
+</html>
